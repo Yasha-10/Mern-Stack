@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightcoral;
+}
+
+th {
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: greenyellow;
+}
