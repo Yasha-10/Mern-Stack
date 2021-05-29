@@ -1,0 +1,78 @@
+#nav {
+    background-color: aqua;
+    color: blue;
+    padding: 40px;
+    font-size: larger;
+    border: 5px solid green;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    padding: 20px;
+    border: 6px solid black;
+}
+
+#photo {
+    padding: 15px;
+    text-align: center;
+}
+
+body {
+    background-image: url("./sea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    z-index: 1;
+}
+
+#one {
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+#two {
+    color: pink;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#three {
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#four {
+    color: violet;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+a:link,
+a:visited {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: burlywood;
+}
