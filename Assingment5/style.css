@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    width: fit-content;
+}
+
+.abc {
+    width: fit-content;
+}
