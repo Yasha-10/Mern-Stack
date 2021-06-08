@@ -1,0 +1,40 @@
+body {
+    background-image: url("/Assingment6/img.jpg");
+}
+
+.calculator {
+    background-color: darkblue;
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-color: black;
+    border: black 5px solid;
+}
+
+.calctextbox {
+    background-color: blue;
+    border: black 1px solid;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-left: 20px;
+    width: 180px;
+    font-size: 20px;
+}
+
+input[type="button"] {
+    height: 50px;
+    width: 50px;
+    /* padding: 10px; */
+    margin: 5px;
+    font-size: 20px;
+}
+
+.calcbuttons {
+    background-color: darkblue;
+    margin-left: 20px;
+}

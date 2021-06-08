@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Css/Style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calctextbox">
+            <input type="text" id="result" />
+            <input type="button" value="c" onclick="clr()" />
+        </div>
+        <div class="calcbuttons">
+            <input type="button" value="1" onclick="display('1')" />
+            <input type="button" value="2" onclick="display('2')" />
+            <input type="button" value="3" onclick="display('3')" />
+            <input type="button" value="/" onclick="display('/')" />
+            <input type="button" value="4" onclick="display('4')" />
+            <input type="button" value="5" onclick="display('5')" />
+            <input type="button" value="6" onclick="display('6')" />
+            <input type="button" value="-" onclick="display('-')" />
+            <input type="button" value="7" onclick="display('7')" />
+            <input type="button" value="8" onclick="display('8')" />
+            <input type="button" value="9" onclick="display('9')" />
+            <input type="button" value="+" onclick="display('+')" />
+            <input type="button" value="." onclick="display('.')" />
+            <input type="button" value="0" onclick="display('0')" />
+            <!-- solve function call function solve to evaluate value -->
+            <input type="button" value="=" onclick="result()" />
+            <input type="button" value="*" onclick="display('*')" />
+        </div>
+    </div>
+    <script src="./Js/index.js"></script>
+</body>
